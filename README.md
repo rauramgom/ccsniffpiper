@@ -24,6 +24,11 @@ Requires: pyusb >= 1.0
 
 How to Use
 ==========
+Run pipe2wireshark
+------------------
+You can execute as superuser the bash script **pip2wireshark.sh**, which gets the channel, starts the sniffer in background and initialize Wireshark. Just run the command: ./pipe2wireshark.sh.
+Note maybe you need to plug in the dongle into a USB3.0
+
 Run ccsniffpiper
 ----------------
 **ccsniffpiper**'s main role it to read from the CC2531 USB packet sniffer and pipe the packets in PCAP format to a named pipe (by default "/tmp/ccsniffpiper").
