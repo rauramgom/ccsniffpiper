@@ -13,7 +13,7 @@
 # get channel or set default
 CHANNEL=$1
 if [ -z "$CHANNEL" ]; then
-    CHANNEL=26
+    CHANNEL=25
 fi
 
 # start the sniffer and fork in background
