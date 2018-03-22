@@ -26,7 +26,7 @@ How to Use
 ==========
 Run pipe2wireshark
 ------------------
-You can execute as superuser the bash script **pip2wireshark.sh**, which gets the channel, starts the sniffer in background and initialize Wireshark. Just run the command: ./pipe2wireshark.sh.
+You can execute as superuser the bash script **pip2wireshark.sh**, which gets the channel, starts the sniffer in background and starts Wireshark. Just run the command: ./pipe2wireshark.sh.
 Note maybe you need to plug in the dongle into a USB3.0
 
 Run ccsniffpiper
